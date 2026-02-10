@@ -1,0 +1,67 @@
+.changelog{
+    width: 910px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 20px;
+    padding: 0px;
+    display: flexbox;
+    height: 700px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Titan One', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.list li{
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Playwrite NZ Basic';
+    margin: 18.5px;
+    padding: 0px;
+}
+
+.lists li{
+    text-align: right;
+    list-style-type: none;
+    margin: 28px;
+    font-family: 'Federant', serif;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 20px;
+    border: solid;
+    background-color: black;
+    color: aliceblue;
+   margin-left: 400px;
+   font-family: 'Tapestry', sans-serif;
+   margin-top: 60px;
+}
+
+.line{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: -33px;
+}
+
+img{
+   height: 420px;
+}
